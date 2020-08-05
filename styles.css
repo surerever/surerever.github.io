@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,700&display=swap');
+
+body { margin: 0}
+
+.hueviyWrapper { 
+         position: absolute;
+		 height: 100vh;
+		 width: 100vw;
+		 bottom: 0;
+}
+
+
+.pizda_text { 
+        position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		font-size: calc(2rem + 10vw);
+		font-family: Roboto;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-image: linear-gradient( 90deg, red
+         50%, white 10%, blue 50%);
+        background-size: 1000% 100%;
+        animation: pizda 0.01s linear infinite;
+       animation-direction: alternate;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+		opacity: .7
+}
+
+@keyframes pizda {
+   0% {
+         background-position: 0;
+   }
+   100% {
+         background-position: 100%;
+      }
+   }
+
+
+
+.jopa {
+        background-image: linear-gradient( 135deg, red
+         10%, white 55%, blue 100%);
+        background-size: 1000% 100%;
+        animation: gradient 0.01s linear infinite;
+        animation-direction: alternate;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height:10vh;
+        width:100%;
+        margin:0;
+        padding:0;
+   }
+   
+   .s {
+        background-image: linear-gradient( 135deg, blue
+         15%, white 50%, red 100%);
+   }
+
+@keyframes gradient {
+   0% {
+         background-position: 0;
+   }
+   100% {
+         background-position: 100%;
+      }
+   }
+
+
