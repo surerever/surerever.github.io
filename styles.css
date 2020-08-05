@@ -4,7 +4,7 @@ body { margin: 0}
 
 .hueviyWrapper { 
          position: fixed;
-		 height: 50%;
+		 height: 100%;
 		 width: 100vw;
 		 bottom: 0;
 	         box-sizing: border-box;
@@ -49,7 +49,7 @@ body { margin: 0}
         animation-direction: alternate;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        height:10vh;
+        height:10%;
         width:100%;
         margin:0;
         padding:0;
