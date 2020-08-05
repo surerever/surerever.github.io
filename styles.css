@@ -36,9 +36,11 @@ body {
 @keyframes pizdaWrapper {
    0% {
          margin-left: -70px;
+		 margin-top: -70px;
    }
    100% {
          margin-left: 70px;
+		 margin-top: 70px;
       }
    }
 
