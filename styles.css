@@ -7,15 +7,31 @@ body { margin: 0}
 		 height: 100%;
 		 width: 100vw;
 		 bottom: 0;
-	         box-sizing: border-box;
+	     box-sizing: border-box;
 }
 
-
-.pizda_text { 
-        position: absolute;
+.pizdaWrapper {
+	position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%,-50%);
+	animation:  pizdaWrapper 0.01s linear infinite;
+	animation-direction: alternate;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+@keyframes pizdaWrapper {
+   0% {
+         margin-left: -70px;
+   }
+   100% {
+         margin-left: 70px;
+      }
+   }
+
+.pizda_text { 
+
 		font-size: calc(2rem + 10vw);
 		font-family: Roboto;
 		-webkit-background-clip: text;
