@@ -88,11 +88,9 @@ body {
 @keyframes gradient {
    0% {
          background-position: 0;
-		 margin-top: 0;
    }
    100% {
          background-position: 100%;
-		 margin-top: 0px;
       }
    }
 
