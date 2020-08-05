@@ -3,8 +3,8 @@
 body { margin: 0}
 
 .hueviyWrapper { 
-         position: absolute;
-		 height: 100vh;
+         position: fixed;
+		 height: 100%;
 		 width: 100vw;
 		 bottom: 0;
 	         box-sizing: border-box;
